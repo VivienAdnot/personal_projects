@@ -1,1 +1,0 @@
-all components that are displayed on the main screen, but are not part of the main action
