@@ -1,0 +1,9 @@
+body {
+  font: 14px "Century Gothic", Futura, sans-serif;
+  margin: 20px;
+  background-image: url('../img/bg2.jpg');
+}
+
+.root {
+  display: flex;
+}
