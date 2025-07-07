@@ -1,0 +1,28 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-minesweeper-dev-02540-authRole",
+      "UnauthRoleArn": "arn:aws:iam::310655500028:role/amplify-minesweeper-dev-02540-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::310655500028:role/amplify-minesweeper-dev-02540-authRole",
+      "Region": "eu-west-3",
+      "DeploymentBucketName": "amplify-minesweeper-dev-02540-deployment",
+      "UnauthRoleName": "amplify-minesweeper-dev-02540-unauthRole",
+      "StackName": "amplify-minesweeper-dev-02540",
+      "StackId": "arn:aws:cloudformation:eu-west-3:310655500028:stack/amplify-minesweeper-dev-02540/df272890-169f-11ed-bb18-06b8ba05012e",
+      "AmplifyAppId": "d641lmeq4wz3f",
+      "APIGatewayAuthURL": "https://s3.amazonaws.com/amplify-minesweeper-dev-02540-deployment/amplify-cfn-templates/api/APIGatewayAuthStack.json"
+    },
+    "categories": {
+      "auth": {
+        "minesweeper67bad2e5": {},
+        "true": {}
+      },
+      "function": {
+        "minesweeperScoresFunction": {
+          "deploymentBucketName": "amplify-minesweeper-dev-02540-deployment",
+          "s3Key": "amplify-builds/minesweeperScoresFunction-436955344d77526a4952-build.zip"
+        }
+      }
+    }
+  }
+}

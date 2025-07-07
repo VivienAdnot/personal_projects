@@ -1,0 +1,26 @@
+{
+  "resourceName": "Scores",
+  "tableName": "Scores",
+  "partitionKey": {
+    "fieldName": "id",
+    "fieldType": "string"
+  },
+  "sortKey": {
+    "fieldName": "score",
+    "fieldType": "number"
+  },
+  "gsi": [
+    {
+      "name": "userIndex",
+      "partitionKey": {
+        "fieldName": "user",
+        "fieldType": "string"
+      },
+      "sortKey": {
+        "fieldName": "score",
+        "fieldType": "number"
+      }
+    }
+  ],
+  "triggerFunctions": []
+}

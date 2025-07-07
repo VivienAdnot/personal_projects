@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "paths": {
+    "/scores": {
+      "name": "/scores",
+      "lambdaFunction": "minesweeperScoresFunction",
+      "permissions": {
+        "setting": "protected",
+        "auth": [
+          "create",
+          "read"
+        ],
+        "guest": [
+          "read"
+        ]
+      }
+    }
+  }
+}

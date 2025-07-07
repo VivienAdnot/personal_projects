@@ -1,0 +1,22 @@
+{
+  "name": "react-minesweeper",
+  "version": "1.0.0",
+  "description": "A fullstack JS App (react - node) with a NoSQL Database (RethinkDB) to play the classic MineSweeper Game",
+  "scripts": {
+    "start": "./start.sh",
+    "setup": "./setup.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VivienAdnot/react-mineSweeper.git"
+  },
+  "author": "Vivien Adnot",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VivienAdnot/react-mineSweeper/issues"
+  },
+  "homepage": "https://github.com/VivienAdnot/react-mineSweeper#readme",
+  "dependencies": {
+    "rethinkdb": "^2.4.2"
+  }
+}
